@@ -1,0 +1,4 @@
+cron_job_schedule:
+  cron: '*/1 * * * *'  
+  class: "CronJob"
+  description: "Running any 10 sec"
