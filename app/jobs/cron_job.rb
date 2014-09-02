@@ -6,6 +6,7 @@ class CronJob
 
 	def self.perform
 		Rake::Task['cron_one'].invoke
+		Resque.redis.lpush 'cron_runned_at', Time.now
 	end	
 	
 end
