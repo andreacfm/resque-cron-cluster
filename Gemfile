@@ -40,5 +40,5 @@ gem 'spring',        group: :development
 
 gem 'resque'
 gem 'resque-scheduler'
-gem 'resque-queue-lock'
+#gem 'resque-queue-lock'
 
